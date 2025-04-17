@@ -1,0 +1,6 @@
+
+[36] M. Hsieh and V. Kumar, “Pattern generation with multiple robots,” in
+Proc. Int. Conf. Robot. Autom, 2006, pp. 2442–2447.
+[37] B. Inden, “Co-evolution of neural and morphological development for
+grasping in changing environments,” presented at the EL-TEC Meeting,
+Honda Research Institute Europe, Offenbach, Germany, Jun. 2009.
