@@ -16,7 +16,7 @@ def extract_text_pymupdf(pdf_path):
 
 
 # 替换为你的论文 PDF 文件路径
-pdf_path = 'example2.pdf'
+pdf_path = 'examplecvpr.pdf'
 extracted_text = extract_text_pymupdf(pdf_path)
 sys.stdout.reconfigure(encoding='utf-8')
 
