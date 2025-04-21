@@ -1,167 +1,58 @@
-Network motifs: Theory and experimental approaches,
-Toward an evolvable model of development for
-autonomous agent synthesis,
-Shape-shifting materials for programmable
-structures,
-The effect of development on the direction of selection: To-
-ward twenty-ﬁrst century consensus,
-The interpretation of morphogen gradients,
-Integrating self-organization theory into an advanced
-course on morphogenesis at Moscow State University,
-Regulatory networks analysis: Robustness in morphogenesis,
-Morphogenesis as an amorphous computing,
-What is metamophosis?,
-Biological metaphors and design of modular artiﬁcial neural
-networks,
-A comprehensive survey of
-multiagent reinforcement learning,
-Cell division and migration in a ’
-for neural networks,
-Positive circuits and d-dimensional spa-
-tial differentiation: Application to the formation of sense organs in
-Drosophila,
-Modeling and simulation of genetic regulatory systems: A
-literature review,
-Programmable architectures that are complex and self-
-organized: From morphogenesis to engineering,
-Abstract genetic representation of dynamical neu-
-ral networks using kauffman networks,
-Cell interactions as a control tool of developmental pro-
-cesses for evolutionary robotics,
-Evolving morphologies of simulated 3d organisms based
-on differential gene expression,
-Modeling cellular behavior,
-The evolution of hierarchical gene regulatory
-networks,
-Evolving developing spiking neural networks,
-A simulation testbed for the study of multicel-
-lular development: The multiple mechanisms of morphogenesis,
-Neural morphogenesis, synaptic plasticity,
-and evolution,
-Design of genetic networks with speciﬁed
-functions by evolution in silico,
-Structure and dynamics of a gene regulatory
-network model incorporating small RNAs,
-The morphogenesis of evolutionary developmental biology,
-A computational model for gene regulatory
-networks and its topological properties,
-Genetic synthesis of modular neural networks,
-A uniﬁed framework for self-organized
-multi-robot pattern formation and boundary coverage inspired from mor-
-phogenesis,
-A cellular mechanism for multi-robot
-construction via evolutionary multi-objective optimization of a gene reg-
-ulatory network,
-Achieving a simple developmental model for
-3d shapes: Are chemicals necessary?,
-Artiﬁcial development,
-Pattern generation with multiple robots,
-Co-evolution of neural and morphological development for
-grasping in changing environments,
-Multi-objective optimization
-of robustness and innovation in redundant genetic representations,
-Robustness analysis and failure recovery of
-a bio-inspired self-organizing multi-robot system,
-Emergence of robust regulatory motifs from in silico
-evolution of sustained oscillation,
-A gene regulatory model for the
-development of primitive nervous systems.
-A ﬁtness-independent evolvability measure for
-evolutionary developmentalsystems,
-Evolving functional symmetry
-in a three dimensional model of an elongated organism,
-Designing neural networks using genetic algorithms with
-graph generation system,
-A simple model of neurogenesis and cell differentiation based
-on evolutionary large-scale chaos,
-Genetic regulatory net-
-work models of biological clocks: Evolutionary history matters,
-Design of programmable matter,
-Evolution and development of neural
-controllers for locomotion, gradient-following, and obstacle-avoidance in
-artiﬁcial insects,
-Framsticks: Towards a simulation of a
-nature-like world, creatures and evolution,
-Developmental cognitive robotics: An
-emerging new ﬁeld,
-Coherent coupling of feedback loops: A
-design principle of cell signaling networks,
-Morphogenetic evolvable hardware controllers for
-robot walking,
-Asymmetric developmental potential along the
-animal-vegetal axis in the anthozoan cnidarian, nematostella vectensis,
-is mediated by dishevelled,
-Designing power aware self-reconﬁguring topology for mobile
-wireless personal area networks using fuzzy logic,
-Mathematical models for cellular interaction in devel-
-opmental. Parts I and II,
-Uncontrolled engineering: A review of evolutionary robotics
-(book review),
-Developmental
-robotics: A survey,
-Experiments in morpho-
-genesis in swarms of simple mobile robot,
-A new paradigm for developmental biology,
-Swarm robotics algorithm: A survey,
-A morphogenetic approach to ﬂexible and
-robust shape formation for swarm robotic systems,
-Autonomous self-reconﬁguration of mod-
-ular robots by evolving a hierarchical mechanochemical model,
-A morphogenetic approach to self-reconﬁgurable modular robots
-using a hybrid hierarchical gene regulatory network,
-Epigenetic robotics: Modeling cognitive
-development in robotic systems,
-Artiﬁcial neurogenesis: Applica-
-tions to the cart-pole problem and to an autonomous mobile robot,
-A connectionist model of
-development,
-Toward a scalable modular
-robotic system—navigation, docking, and integration of M-TRAN,
-Self-reconﬁgurable robots,
-Designed and
-evolved blueprints for physical artiﬁcial life,
-Growing neural networks,
-Evolution of
-bilateral symmetry in agents controlled by spiking neural networks,
-In silico evolution of functional modules in biochemical
-networks.,
-Morphological computation for adap-
-tive behavior and cognition,
-Intelligent and cognitive systems,
-Coevolutionary
-robotics,
-Developmental bias in evolution: Evolutionary
-accessibility of phenotypes in a model of evo-devo systems,
-Evolutionary developmental biology,
-Bio-logic: Gene expression and the laws of
-combinatorial logic,
-Emerged coupling of motor control
-and morphological development in evolution of multi-cellular animates,
-The role of activity in development of the visual
-system,
-Hormone-inspired self-organization
-and distributed control of robotic swarms,
-Inference of gene regulatory networks using
-time-series data: A survey,
-Evolving 3D morphology and behavior by competition,
-Electrical activity in early neuronal development,
-A taxonomy for artiﬁcial embryo-
-geny,
-A cellular model for the evolutionary
-development of lightweight material with an inner structure,
-Global shape
-with morphogen gradients and motile polarized cells,
-Recent developments in the evolution of mor-
-phologies and controllers for physically simulated creatures,
-How does non-random spontaneous activity contribute to
-brain development?
-Robust tunable biological oscillations from interlinked positive and
-negative feedback loops,
-Autonomous mental development by robots and animals,
-Design of a six dof reconﬁgurable gripper
-for ﬂexible ﬁxtureless assembly,
-Growth and development of continuous
-structures,
-Evolution of human hand: The role of throwing and clubbing,
-Morpho: A self-
-deformable modular robot inspired by cellular structure,
+[1] Scape: shape completion and animation of people
+[2] Realtime multi-person 2d pose estimation using part afﬁnity ﬁelds
+[3] A simple framework for contrastive learn- ing of visual representations
+[4] Generative approach for prob- abilistic human mesh recovery using diffusion models
+[5] Pose2mesh: Graph convolutional network for 3d human pose and mesh recovery from a 2d human pose
+[6] Learning to estimate robust 3d human mesh from in-the-wild crowded scenes
+[7] Learning to estimate robust 3d human mesh from in-the-wild crowded scenes
+[8] Monocular expressive body regression through body-driven attention
+[9] An image is worth 16x16 words: Trans- formers for image recognition at scale
+[10] Diffpose: Spatiotemporal diffusion model for video-based human pose estimation
+[11] Remips: Phys- ically consistent 3d reconstruction of multiple interacting people under weak supervision
+[12] Distribution-aligned diffusion for human mesh recovery
+[13] Holopose: Holistic 3d human reconstruction in-the-wild
+[14] Densepose: Dense human pose estimation in the wild
+[15] Deep residual learning for image recognition
+[16] Denoising diffu- sion probabilistic models
+[17] LoRA: Low-rank adaptation of large language models
+[18] Human3
+[19] Coherent reconstruction of multiple humans from a single image
+[20] Panoptic studio: A massively multiview system for social motion capture
+[21] End-to-end recovery of human shape and pose
+[22] Oc- cluded human mesh recovery
+[23] Vibe: Video inference for human body pose and shape estimation
+[24] Pare: Part attention regressor for 3d hu- man body estimation
+[25] Learning to reconstruct 3d human pose and shape via model-ﬁtting in the loop
+[26] Convolutional mesh regression for single-image hu- man shape reconstruction
+[27] Crowdpose: Efﬁcient crowded scenes pose estimation and a new benchmark
+[28] Jotr: 3d joint contrastive learning with transformers for occluded human mesh recovery
+[29] Cliff: Carrying location information in full frames into human pose and shape estimation
+[30] End-to-end hu- man pose and mesh reconstruction with transformers
+[31] Microsoft coco: Common objects in context
+[32] Swin transformer v2: Scaling up capacity and resolution
+[33] Smpl: A skinned multi- person linear model
+[34] 3d human mesh estimation from virtual mark- ers
+[35] Troje, Ger- ard Pons-Moll, and Michael J
+[36] Single-shot multi-person 3d pose estimation from monocular rgb
+[37] Poseﬁx: Model-agnostic general human pose reﬁnement net- work
+[38] Neuralannot: Neural annotator for 3d human mesh training sets
+[39] Learning to estimate 3d human pose and shape from a single color image
+[40] A
+[41] Learn- ing transferable visual models from natural language super- vision
+[42] High-resolution image syn- thesis with latent diffusion models
+[43] U-net: Convolutional networks for biomedical image segmentation
+[44] Laion-5b: An open large-scale dataset for train- ing next generation image-text models
+[45] Deep unsupervised learning using nonequilibrium thermodynamics
+[46] Deep high-resolution representation learning for human pose esti- mation
+[47] Monocular, one-stage, regression of multiple 3d people
+[48] Monocular, one-stage, regression of multiple 3d people
+[49] Putting people in their place: Monocular regression of 3d people in depth
+[50] Recovering accurate 3d human pose in the wild using imus and a moving camera
+[51] Proliﬁcdreamer: High-ﬁdelity and diverse text-to-3d generation with variational score distilla- tion
+[52] Monocular 3d pose and shape estimation of multiple people in natural scenes-the importance of multiple scene constraints
+[53] Deep network for the in- tegrated 3d sensing of multiple people in natural images
+[54] Weakly supervised 3d human pose and shape re- construction with normalizing ﬂows
+[55] Pymaf: 3d human pose and shape regression with pyramidal mesh alignment feedback loop
+[56] Adding conditional control to text-to-image diffusion models
+[57] Object- occluded human shape and pose estimation from a single color image
+[58] Unleashing text-to-image diffusion models for visual perception

@@ -1,30 +1,49 @@
 import re
 
 
-def extract_titles(text):
-    title_pattern = re.compile(r'^\[\d+\]\s.*?\.\s(.*?)\.\sIn', re.MULTILINE | re.DOTALL)
-    titles = title_pattern.findall(text)
-    return titles
+class Reference:
+    def __init__(self, number, title):
+        self.number = number
+        self.title = title
+
+    def __str__(self):
+        return f"标号: {self.number}\n文献名称: {self.title}\n"
 
 
-text = """
-[32] Ze Liu, Han Hu, Yutong Lin, Zhuliang Yao, Zhenda Xie,
-Yixuan Wei, Jia Ning, Yue Cao, Zheng Zhang, Li Dong, et al.
-Swin transformer v2: Scaling up capacity and resolution. In
-CVPR, pages 12009–12019, 2022. 7, 8
-[33] Matthew Loper, Naureen Mahmood, Javier Romero, Gerard
-Pons-Moll, and Michael J Black. Smpl: A skinned multi-
-person linear model. ACM ToG, 34(6), 2015. 3
-[34] Xiaoxuan Ma, Jiajun Su, Chunyu Wang, Wentao Zhu, and
-Yizhou Wang. 3d human mesh estimation from virtual mark-
-ers. In CVPR, pages 534–543, 2023. 3
-[35] Naureen Mahmood, Nima Ghorbani, Nikolaus F. Troje, Ger-
-ard Pons-Moll, and Michael J. Black. Amass: Archive of
-motion capture as surface shapes. In ICCV, 2019. 5
-"""
+try:
+    with open('test.txt', 'r', encoding='utf-8') as file:
+        text = file.read()
+except FileNotFoundError:
+    print("未找到 test.txt 文件，请检查文件路径和文件名。")
+    exit(1)
+except Exception as e:
+    print(f"读取文件时出现错误: {e}")
+    exit(1)
 
-titles = extract_titles(text)
-for title in titles:
-    print(title.replace('\n', ' ').strip())
+start_index = text.find("References")
+if start_index == -1:
+    print("未找到 References 部分。")
+    exit(1)
 
+references_text = text[start_index + len("References"):]
+
+# 定义正则表达式，匹配标号、标题（在第一个.和第二个.之间）
+pattern = r'\[(\d+)\](.*?)\.(.*?)\.'
+matches = re.findall(pattern, references_text, re.DOTALL)
+
+reference_objects = []
+for match in matches:
+    number = f"[{match[0]}]"
+    # 提取标题内容，去除换行符并去掉首尾空格
+    title = match[2].replace('\n', ' ').strip()
+    reference_objects.append(Reference(number, title))
+
+output_file_path = 'references.txt'
+try:
+    with open(output_file_path, 'w', encoding='utf-8') as file:
+        for ref_obj in reference_objects:
+            file.write(f"{ref_obj.number} {ref_obj.title}\n")
+    print(f"文献标号和标题已成功保存到 {output_file_path}，每行格式为“[标号] 标题”")
+except Exception as e:
+    print(f"保存文件时出现错误: {e}")
     
